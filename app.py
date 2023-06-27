@@ -17,15 +17,14 @@ def main():
     heading = "தமிழ்நாடு திறனாளி மேம்பாட்டு நிறுவனம்" if target_lang_code == "ta" else "Tamil Nadu Skill Development Corporation"
     body_1 = "To see a list of training courses available in various states along with sector names: " \
              "[TNSDCTPSearch](https://trainingprovider.tnskill.tn.gov.in/TNSDCTPSearch)"
-    body_2 = "To register yourself as a new candidate: " \
-             "[Candidate Registration](https://candidate.tnskill.tn.gov.in/Candidate/Account/Registration)"
+
     body_3 = "To view the complete website: " \
              "[TNSkill](https://www.tnskill.tn.gov.in/)"
 
     if target_lang_code == "ta":
         heading = translate_text(heading, target_lang_code)
         body_1 = translate_text(body_1, target_lang_code)
-        body_2 = translate_text(body_2, target_lang_code)
+
         body_3 = translate_text(body_3, target_lang_code)
 
     st.markdown(
