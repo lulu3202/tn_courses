@@ -48,7 +48,7 @@ def main():
 
     st.markdown(f"## {heading}")
     st.markdown(body_1, unsafe_allow_html=True)
-    st.markdown(body_2, unsafe_allow_html=True)
+
     st.markdown(body_3, unsafe_allow_html=True)
 
 if __name__ == "__main__":
